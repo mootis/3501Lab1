@@ -43,20 +43,19 @@ public class Main {
         System.out.println("See below");
 
         int i;
-        double factorialSet[];
+        int factorialSet[];
 
         for(i = 1; i <= factorial(n); i++){
 
-            // System.out.println(i);
-
+            System.out.println(i);
+/*
             while (i <= n){
-                factorialSet = new double[n];
+                factorialSet = new int[n];
                 factorialSet[i] = n;
-                i++;
             }
 
-            // System.out.println(factorialSet);
-
+            System.out.println(factorialSet);
+*/
         }
 
         long timeAfter = System.currentTimeMillis();
