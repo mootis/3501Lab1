@@ -43,31 +43,40 @@ public class Main {
         System.out.println("See below");
 
         int i;
-        int factorialSet[];
+        // TEST 1
+        double[] nums = new double[n];
+
+        /*
+        TEST 2
+        double factorialSet[];
+        factorialSet = new double[n];
+        */
 
         for(i = 1; i <= factorial(n); i++){
 
             System.out.println(i);
-/*
+
+            /*
+            // TEST 1 (NEW)
             while (i <= n){
-                factorialSet = new int[n];
+                nums[i] = n;
+            }
+
+            // TEST 2 (OLD)
+            while (i <= n){
+                factorialSet = new double[n];
                 factorialSet[i] = n;
             }
 
             System.out.println(factorialSet);
-*/
+            */
+
+            System.out.println(nums);
+            
         }
 
         long timeAfter = System.currentTimeMillis();
         System.out.println("Computation time: " + (timeAfter - timeBefore) + "ms");
-
-        /*
-        Testing
-
-        System.out.println(timeBefore);
-        System.out.println(timeAfter);
-
-        */
 
     }
 
