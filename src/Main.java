@@ -54,11 +54,15 @@ public class Main {
 
         for(i = 1; i <= factorial(n); i++){
 
-            System.out.println(i);
+            // System.out.println(i);
+
+            while (i >= factorial(n)) {
+                nums[i-1] = 1;
+            }
 
             /*
             // TEST 1 (NEW)
-            while (i <= n){
+            while (i <= factorial(n)){
                 nums[i] = n;
             }
 
@@ -72,7 +76,7 @@ public class Main {
             */
 
             System.out.println(nums);
-            
+
         }
 
         long timeAfter = System.currentTimeMillis();
