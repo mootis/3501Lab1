@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -56,9 +57,14 @@ public class Main {
 
             // System.out.println(i);
 
-            while (i >= factorial(n)) {
-                nums[i] = 1;
+            int c = 0;
+
+            if(c<=n){
+                // n is where filtering should happen
+                nums[c]=n;
+                c++;
             }
+
 
             /*
             // TEST 1 (NEW)
@@ -75,9 +81,11 @@ public class Main {
             System.out.println(factorialSet);
             */
 
-            System.out.println(nums);
+            System.out.println(Arrays.toString(nums));
 
         }
+
+        System.out.println("Done");
 
         long timeAfter = System.currentTimeMillis();
         System.out.println("Computation time: " + (timeAfter - timeBefore) + "ms");
