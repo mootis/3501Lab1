@@ -52,12 +52,12 @@ public class Main {
         factorialSet = new double[n];
         */
 
-        for(i = 1; i <= factorial(n); i++){
+        for(i = 0; i <= factorial(n); i++){
 
             // System.out.println(i);
 
             while (i >= factorial(n)) {
-                nums[i-1] = 1;
+                nums[i] = 1;
             }
 
             /*
