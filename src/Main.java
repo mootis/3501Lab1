@@ -54,15 +54,13 @@ public class Main {
 
         for(i = 1; i <= factorial(n); i++){
 
-            System.out.println(i);
 
-            /*
             // TEST 1 (NEW)
             while (i <= n){
                 nums[i] = n;
             }
 
-            // TEST 2 (OLD)
+            /*// TEST 2 (OLD)
             while (i <= n){
                 factorialSet = new double[n];
                 factorialSet[i] = n;
@@ -71,7 +69,7 @@ public class Main {
             System.out.println(factorialSet);
             */
 
-            System.out.println(nums);
+            System.out.println(factorial(n));
             
         }
 
