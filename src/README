@@ -1,6 +1,9 @@
 Lab 1 for CSCI 3501
 Authors: David Chong and Hunter Welch
 
+Main.java - First attempt at the lab. Did not work as expected. Could not get arrays to populate in the way we had wanted.
+Test.java - Completed lab. Used resource listed below to figure out a sorting algorithm to use. Used aspects of Main.java to output the proper data.
+
 Efficiency can be calculated using shell sort estimate:
 O(n*log(n^2)) > divide by 1000 for seconds > divide by 60 for mins > divide by 60 for hours > divide by 24 for days > divide by 365 for years
 
