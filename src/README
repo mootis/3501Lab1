@@ -1,0 +1,17 @@
+Lab 1 for CSCI 3501
+Authors: David Chong and Hunter Welch
+
+Efficiency can be calculated using shell sort estimate:
+O(n*log(n^2)) > divide by 1000 for seconds > divide by 60 for mins > divide by 60 for hours > divide by 24 for days > divide by 365 for years
+
+We input n! for n in each case to calculate the efficiency.
+
+We estimate:
+n=15 would take 6087.617 years
+n=20 would take 2.607944882735×10^10 years
+
+Where we found the permute method.
+https://www.sanfoundry.com/java-program-generate-all-possible-combinations-given-list-numbers/
+
+Where we found our estimate for Big O calculation - We think we used shell sort:
+http://bigocheatsheet.com/img/big-o-cheat-sheet-poster.png
